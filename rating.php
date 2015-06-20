@@ -7,7 +7,7 @@ include_once('mysql.php');
 $code = $_GET['code'];
 $fac = $_GET['fac'];
 $subject_name = $_GET['name'];
-if(isset($_GET)){
+if(isset($_GET['msg'])){
 	if($_GET['msg']==1){
 		echo "Successful";
 	}
@@ -20,7 +20,7 @@ if(isset($_GET)){
 </head>
 <body>
 <form name = "doRating" action = "rating_done.php" method = "GET">
-	<label>Registration Number (It would be completely kept anomynous) : </label><input type = "text" name = "regno"><br>
+	<label>Registration Number (It would be completely kept anomynous) : </label><input type = "text" name = "regno" required><br>
 <label>Rate <?php echo $fac.' for '. $subject_name ?> </label>
 <select name="rate_value">
   <option value="1">1</option>
