@@ -14,11 +14,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 ?><table border="1" style="width:100%">
-  <tr>
-    <td><b>COURSE CODE</td>
-    <td><b>COURSE NAME</b></td>		
-    <td><b>FACULTY NAME</b></td>
-  </tr>
+ 
   <tr>
     <td>Eve</td>
     <td>Jackson</td>		
