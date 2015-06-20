@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 20, 2015 at 12:49 PM
+-- Generation Time: Jun 20, 2015 at 08:02 PM
 -- Server version: 5.6.20
 -- PHP Version: 5.5.15
 
@@ -56,9 +56,9 @@ INSERT INTO `list` (`id`, `course_code`, `course_title`, `faculty_name`, `facult
 (17, 'BIT102', 'Biochemistry', 'SUDHA RAMAIAH', 'SBST', 0, 0),
 (18, 'BIT102', 'Biochemistry', 'KALAIVANI T', 'SBST', 0, 0),
 (19, 'BIT102', 'Biochemistry', 'CHITRA KALAICHELVAN', 'SBST', 0, 0),
-(20, 'BIT102', 'Biochemistry', 'SUDHA RAMAIAH', 'SBST', 0, 0),
-(21, 'BIT106', 'Biostatistics', 'JAYANTHI S', 'SBST', 0, 0),
-(22, 'BIT107', 'Cell Biology and Genetics', 'GAYATHRI M', 'SBST', 0, 0),
+(20, 'BIT102', 'Biochemistry', 'SUDHA RAMAIAH', 'SBST', 4, 3),
+(21, 'BIT106', 'Biostatistics', 'JAYANTHI S', 'SBST', 15, 3),
+(22, 'BIT107', 'Cell Biology and Genetics', 'GAYATHRI M', 'SBST', 26, 1),
 (23, 'BIT107', 'Cell Biology and Genetics', 'GAYATHRI M', 'SBST', 0, 0),
 (24, 'BIT107', 'Cell Biology and Genetics', 'GAYATHRI M', 'SBST', 0, 0),
 (25, 'BIT107', 'Cell Biology and Genetics', 'GAYATHRI M', 'SBST', 0, 0),
@@ -2417,7 +2417,7 @@ INSERT INTO `list` (`id`, `course_code`, `course_title`, `faculty_name`, `facult
 (2375, 'SWE528', 'Software Reuse', 'ASHA N', 'SITE', 0, 0),
 (2376, 'SWE528', 'Software Reuse', 'ASHA N', 'SITE', 0, 0),
 (2377, 'SWE530', 'Python Programming', 'KURUVA LAKSHMANNA', 'SITE', 0, 0),
-(2378, 'SWE530', 'Python Programming', 'VALARMATHI B', 'SITE', 0, 0);
+(2378, 'SWE530', 'Python Programming', 'VALARMATHI B', 'SITE', 5, 4);
 
 -- --------------------------------------------------------
 
