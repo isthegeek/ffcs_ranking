@@ -23,10 +23,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `table 1`
+-- Table structure for table `list`
 --
 
-CREATE TABLE IF NOT EXISTS `table 1` (
+CREATE TABLE IF NOT EXISTS `list` (
 `id` int(11) NOT NULL,
   `course_code` varchar(48) DEFAULT NULL,
   `course_title` varchar(60) DEFAULT NULL,
@@ -35,10 +35,10 @@ CREATE TABLE IF NOT EXISTS `table 1` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2379 ;
 
 --
--- Dumping data for table `table 1`
+-- Dumping data for table `list`
 --
 
-INSERT INTO `table 1` (`id`, `course_code`, `course_title`, `faculty_name`, `faculty_school`) VALUES
+INSERT INTO `list` (`id`, `course_code`, `course_title`, `faculty_name`, `faculty_school`) VALUES
 (5, 'BIF201', 'Biological Databases', 'SUDHA RAMAIAH', 'SBST'),
 (6, 'BIF303', 'Genomics and Proteomics', 'MOHANA PRIYA A', 'SBST'),
 (7, 'BIF303', 'Genomics and Proteomics', 'MOHANA PRIYA A', 'SBST'),
@@ -763,7 +763,7 @@ INSERT INTO `table 1` (`id`, `course_code`, `course_title`, `faculty_name`, `fac
 (726, 'ECE208', 'Engineering Electromagnetics', 'BUDHADITYA BHATTACHARYYA', 'SENSE'),
 (727, 'ECE208', 'Engineering Electromagnetics', 'LAVANYA N', 'SENSE'),
 (728, 'ECE208', 'Engineering Electromagnetics', 'LAVANYA N', 'SENSE');
-INSERT INTO `table 1` (`id`, `course_code`, `course_title`, `faculty_name`, `faculty_school`) VALUES
+INSERT INTO `list` (`id`, `course_code`, `course_title`, `faculty_name`, `faculty_school`) VALUES
 (729, 'ECE208', 'Engineering Electromagnetics', 'CHRISTINA JOSEPHINE MALATHI A', 'SENSE'),
 (730, 'ECE208', 'Engineering Electromagnetics', 'CHRISTINA JOSEPHINE MALATHI A', 'SENSE'),
 (731, 'ECE208', 'Engineering Electromagnetics', 'ANAND S', 'SENSE'),
@@ -1470,7 +1470,7 @@ INSERT INTO `table 1` (`id`, `course_code`, `course_title`, `faculty_name`, `fac
 (1432, 'MAT115', 'Differential and Difference Equations', 'NEW FACULTY 01', 'SAS'),
 (1433, 'MAT115', 'Differential and Difference Equations', 'NEW FACULTY 01', 'SAS'),
 (1434, 'MAT115', 'Differential and Difference Equations', 'NEW FACULTY 01', 'SAS');
-INSERT INTO `table 1` (`id`, `course_code`, `course_title`, `faculty_name`, `faculty_school`) VALUES
+INSERT INTO `list` (`id`, `course_code`, `course_title`, `faculty_name`, `faculty_school`) VALUES
 (1435, 'MAT115', 'Differential and Difference Equations', 'NEW FACULTY 01', 'SAS'),
 (1436, 'MAT115', 'Differential and Difference Equations', 'NEW FACULTY 01', 'SAS'),
 (1437, 'MAT115', 'Differential and Difference Equations', 'NEW FACULTY 01', 'SAS'),
@@ -2144,7 +2144,7 @@ INSERT INTO `table 1` (`id`, `course_code`, `course_title`, `faculty_name`, `fac
 (2105, 'MGT307', 'Principles of Marketing', 'GEMINI V JOY', 'VITBS'),
 (2106, 'MGT307', 'Principles of Marketing', 'VENUGOPAL P.', 'VITBS'),
 (2107, 'MGT307', 'Principles of Marketing', 'NAGA VENKATA RAGHURAM J.', 'VITBS');
-INSERT INTO `table 1` (`id`, `course_code`, `course_title`, `faculty_name`, `faculty_school`) VALUES
+INSERT INTO `list` (`id`, `course_code`, `course_title`, `faculty_name`, `faculty_school`) VALUES
 (2108, 'MGT307', 'Principles of Marketing', 'PADMAVATHY C', 'VITBS'),
 (2109, 'MGT307', 'Principles of Marketing', 'ASHOK D', 'VITBS'),
 (2110, 'MGT307', 'Principles of Marketing', 'PRATAP CHANDRA MANDAL', 'VITBS'),
@@ -2422,9 +2422,9 @@ INSERT INTO `table 1` (`id`, `course_code`, `course_title`, `faculty_name`, `fac
 --
 
 --
--- Indexes for table `table 1`
+-- Indexes for table `list`
 --
-ALTER TABLE `table 1`
+ALTER TABLE `list`
  ADD PRIMARY KEY (`id`);
 
 --
@@ -2432,9 +2432,9 @@ ALTER TABLE `table 1`
 --
 
 --
--- AUTO_INCREMENT for table `table 1`
+-- AUTO_INCREMENT for table `list`
 --
-ALTER TABLE `table 1`
+ALTER TABLE `list`
 MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2379;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
