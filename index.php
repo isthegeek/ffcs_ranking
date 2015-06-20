@@ -5,15 +5,12 @@
 include_once('mysql.php');
 
 ?><table border="1" style="width:100%">
-<<<<<<< HEAD
+
   <tr>
     <td><b>COURSE CODE</td>
     <td><b>COURSE NAME</b></td>
     <td><b>FACULTY NAME</b></td>
   </tr>
-=======
- 
->>>>>>> abdb64c5675b726d6e0c7ee81278ece01a1e4ec1
   <tr>
     <td>Eve</td>
     <td>Jackson</td>
